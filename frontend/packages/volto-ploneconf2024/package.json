@@ -26,7 +26,9 @@
     "release-major-alpha": "release-it major --preRelease=alpha",
     "release-alpha": "release-it --preRelease=alpha"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@plonegovbr/volto-code-block": "*"
+  },
   "peerDependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -34,5 +36,8 @@
   "devDependencies": {
     "@plone/scripts": "^3.6.1",
     "release-it": "^17.1.1"
-  }
+  },
+  "addons": [
+    "@plonegovbr/volto-code-block"
+  ]
 }
